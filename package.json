@@ -1,0 +1,29 @@
+{
+  "name": "react-nodejs",
+  "version": "1.0.0",
+  "description": "Survey Email with React as the Front-end and NodeJS as the Back-end Side.It uses Stripe, Email provider and Passport OAuth Google",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Refiqi/Survey-Email-React-NodeJS.git"
+  },
+  "keywords": [
+    "React",
+    "NodeJS"
+  ],
+  "author": "Refiqi Muhamad Fadila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Refiqi/Survey-Email-React-NodeJS/issues"
+  },
+  "homepage": "https://github.com/Refiqi/Survey-Email-React-NodeJS#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
