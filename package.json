@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Survey Email with React as the Front-end and NodeJS as the Back-end Side.It uses Stripe, Email provider and Passport OAuth Google",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Refiqi/Survey-Email-React-NodeJS.git"
@@ -21,7 +18,9 @@
   },
   "homepage": "https://github.com/Refiqi/Survey-Email-React-NodeJS#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
