@@ -6,3 +6,10 @@ install: npm install
 cache:
   directories:
   - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: IL8+E9t1GyTObY1Hah2UmmqO1T4AIXdfCP4TB/6nd00KuLitw6EkMBCvxAnKriO2HgUTbCnRNSSvGlccUIWPZ7s73MuL8PxrHOlgvxHjPZA6TFPOsEUBPq8dHVrDbq+OGJN0fjuqWpVDJrSpDPN3PJy59Im4UEIcixOW+k4uDe0EVWCg24PVQDfiIwrg/DxAdkZmyPMszwDRelnjRtxFWppZeQsVTk+TywRfTXavMqb2avCmUT4w3b9CoNcNw9bnGi6XP7x3TJ2kx+MZo7pqVgyGH3UC/86p6oNT9XSKi9K/irMgB+dCfNKmSVOiCpsv1faY9m+5CdDceNiSfbnXHXd0q+T1BUAE5tV2f5tRRiNnTxJMvkbWCEvck1G6+NAplTEcb+BGfb1Qc1g3VG75TRQkwSopTX6ZCejYjfk8/JgRjdSL3kxZhwc37OrT5owvwTLvWE3fAxM4FWUFJjhBD+xRUAYiXVK5yrre193SIbrjQ/M6oIqswNKAeEkm46dpkO35p7zgCxxJdqh7sKiLsKvwxebXKHqLSgf5w7Hh752eANOPluRlCMFHbqKubqCvLCNG+5F2OOO4n/hRVeCAABP53riDUWQfxVWb/wRRZn0v+YyOX0t/8NOUlonAWyTR8c2Qu+eRgCysnwOklGsTpqRdP5F1etgVtUl7wKw9YJM=
+  app: emaily-96
+  on:
+    repo: Refiqi/Survey-Email-React-NodeJS
